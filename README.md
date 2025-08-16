@@ -18,10 +18,12 @@ Toimintoja ovat:
         -DELETE-metodi. {"id": int}
 
 SQL-tietokannan employee-taulun rakenne:
+```
 `employee` (
   `id` int(11) NOT NULL,
   `name` varchar(100) DEFAULT NULL,
   `email` varchar(100) DEFAULT NULL,
   `phone` int(10) DEFAULT NULL
 )
+```
 Projekti on tehty lokaalisti, joten lisäsin pienen Postman-demon kuvana ja tietokannan SQL-tiedostona.

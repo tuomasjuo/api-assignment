@@ -7,7 +7,7 @@ Toimintoja ovat:
         -GET-metodi. Hae kaikki rekisterin työntekijät jättämällä pyynnön body tyhjäksi.
         -GET-metodi. Hae yksittäinen työntekijä id:n perusteella {"id": int}
 
-    -Työntekijän lisääminen.
+    -Työntekijän lisääminen. Tämä vaatii kaikki kentät.
         -POST-metodi. {"name": string, "email": string, "phone": int}
 
     -Työntekijän tietojen muuttaminen.

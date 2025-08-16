@@ -13,7 +13,7 @@ Toimintoja ovat:
         {"name": string, "email": string, "phone": int}
 
     -Työntekijän tietojen muuttaminen.
-        -PUT-metodi. Tämä vaatii kaikki kentät vaikka niitä ei muuttaisi. 
+        -PUT-metodi. Tämä vaatii kaikki kentät, vaikka niitä ei muuttaisi. 
         {"id": int, "name": string, "email": string, "phone": int}
 
     -Työntekijän poistaminen.
